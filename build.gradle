@@ -53,6 +53,9 @@ dependencies {
     // Anthropic Java SDK
     implementation "com.anthropic:anthropic-java:${anthropicJavaVersion}"
 
+    // JLine - interactive console
+    implementation "org.jline:jline:${jlineVersion}"
+
     // Security constraints for transitive dependencies
     constraints {
         implementation("com.squareup.okio:okio:3.17.0") {
